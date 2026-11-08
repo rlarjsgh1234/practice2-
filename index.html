@@ -13,3 +13,25 @@
     <button class="poke-button" onclick="randompokemon()">랜덤 포켓몬 가져오기</button>
     <div id="pokemon-info"></div>
   </div>
+
+  <!-- 게시판 영역 -->
+  <div class="board-section">
+    <form id="postForm">
+      <input type="text" id="content" placeholder="내용" required />
+      <button type="submit">글 작성</button>
+    </form>
+
+    <table id="board">
+      <thead>
+      <tr>
+        <th>내용</th>
+      </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+</div>
+<script src="js_practice.js"></script>
+</body>
+</html>
